@@ -599,6 +599,10 @@ fill: var(--color-cloud);
   border-top: none;
 }
 
+.gallery-link {
+  display: block;
+}
+
 .gallery-link:hover,
 .gallery-link:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -640,7 +644,7 @@ overflow: hidden;
 
 .gallery-link:hover .overlay-text,
 .gallery-link:focus .overlay-text {
-transform: translateY(0%);
+  transform: translateY(0%);
 }
 
 
